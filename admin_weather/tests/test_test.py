@@ -9,4 +9,4 @@ from django.contrib.auth.models import User
 def test_user_create():
     c = User.objects.count()
     User.objects.create_user('john', 'lennon@thebeatles.com', 'johnpassword')
-    assert  User.objects.count() > c
+    assert  User.objects.count() > c, 'User created'
