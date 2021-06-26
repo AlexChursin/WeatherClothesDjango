@@ -5,8 +5,8 @@ cryptography==3.4.7
 Django==3.2.4
 django-mssql==1.8
 django-mssql-backend==2.8.1
-django-ninja==0.13.2
-django-pyodbc-azure==2.1.0.0
+django-ninja
+django-pyodbc-azure
 ecdsa==0.17.0
 passlib==1.7.4
 pyasn1==0.4.8
