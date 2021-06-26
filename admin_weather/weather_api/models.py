@@ -1,5 +1,6 @@
-from django.db import models
+import os
 
+from django.db import models
 
 class WeatherType(models.Model):
     type = models.CharField('тип погоды', max_length=200)
